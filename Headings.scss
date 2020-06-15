@@ -1,0 +1,18 @@
+$color: red;
+
+%heading {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: $color;
+  text-align: center;
+}
+
+h1 {
+    @extend %heading;
+    font-size: 50px;
+}
+
+h2 {
+    @extend %heading;
+    font-size: 45px;
+}
